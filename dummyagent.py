@@ -3,7 +3,7 @@ from huggingface_hub import InferenceClient
 from transformers import AutoTokenizer
 
 # Set up the Hugging Face token
-os.environ["HF_TOKEN"] = 
+os.environ["HF_TOKEN"] =""
 
 # Define the system prompt
 SYSTEM_PROMPT = "You are a helpful assistant."
